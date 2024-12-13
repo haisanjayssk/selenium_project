@@ -93,3 +93,8 @@ Ensure WebDriverManager is compatible with your environment to auto-manage drive
 ## Test Report
 - You can view the [EXTEND TEST REPORT HERE](https://haisanjayssk.github.io/selenium_project/extent-reports.html)
 
+## CI/CD Pipeline
+
+- This project uses **GitHub Actions** for continuous integration and test execution instead of Jenkins.
+- You can view the workflow configuration in the [`.github/workflows`](https://github.com/haisanjayssk/selenium_project/tree/main/.github/workflows) directory.
+
