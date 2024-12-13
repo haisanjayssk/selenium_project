@@ -90,3 +90,6 @@ Ensure WebDriverManager is compatible with your environment to auto-manage drive
 ## 📜 Assumptions/Limitations
 - Tests assume the index.html runs locally (localhost port **5500**).
 
+## Test Report
+- You can view the [EXTEND TEST REPORT HERE](https://haisanjayssk.github.io/selenium_project/extent-reports.html)
+
