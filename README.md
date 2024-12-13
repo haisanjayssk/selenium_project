@@ -14,4 +14,6 @@ step 5 : Run Maven Tests
 
         $ mvn test
 
+note : test time is depend on yor network speed (for table data application uses w3sschool site tables ).
+
 after the test are completed you can see the result in cucumber-reports.html(default report) and extend-report.html located in project-> target.
