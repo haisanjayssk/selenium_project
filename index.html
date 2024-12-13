@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cascading Dropdown Example</title>
+  <script>
+    function updateChildDropdown() {
+      var parentDropdown = document.getElementById("parentDropdown");
+      var childDropdown = document.getElementById("childDropdown");
+      childDropdown.innerHTML = "";
+
+      if (parentDropdown.value === "Fruits") {
+        childDropdown.innerHTML = `
+          <option>Apple</option>
+          <option>Banana</option>
+          <option>Orange</option>
+        `;
+      } else if (parentDropdown.value === "Vegetables") {
+        childDropdown.innerHTML = `
+          <option>Carrot</option>
+          <option>Broccoli</option>
+          <option>Spinach</option>
+        `;
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Cascading Dropdown Example</h2>
+  
+  <label for="parentDropdown">Select Category:</label>
+  <select id="parentDropdown" onchange="updateChildDropdown()">
+    <option value="">--Select--</option>
+    <option value="Fruits">Fruits</option>
+    <option value="Vegetables">Vegetables</option>
+  </select>
+
+  <br><br>
+  
+  <label for="childDropdown">Select Item:</label>
+  <select id="childDropdown">
+    <option value="">--Select--</option>
+  </select>
+</body>
+</html>
