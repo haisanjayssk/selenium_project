@@ -17,7 +17,7 @@ public class CascadingDropdownSteps {
     @Given("I navigate to the cascading dropdown test page")
     public void navigateToTestPage() {
         driver = WebDriverManagerUtil.getDriver();
-        driver.get("http://localhost:5500/index.html"); // Adjust based on your server
+        driver.get("http://localhost:5501/index.html"); // Adjust based on your server
         dropdownPage = new DropdownPage(driver);
     }
 
